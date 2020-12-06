@@ -1,0 +1,13 @@
+.first
+{
+	width: 500px;
+	margin: 25px auto;
+}
+.second
+{
+    width: 400px;
+	padding: 40px;
+    border: 10px solid blue;
+	width: 400px;
+    margin: 0 auto;
+}
