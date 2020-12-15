@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.block{
+    background-color: #b6f5f5;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 0px 6px -2px #000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    padding: 20px;
+}
+.block:hover{
+    background-color: #ff5555;
+      -o-transform: scale(1.2, 1.1);
+      -ms-transform: scale(1.2, 1.1);
+      -moz-transform: scale(1.2, 1.1);
+      -webkit-transform: scale(1.2, 1.1);
+      transform: scale(1.2, 1.1);
+}
+h2{
+    margin: 0;
+}
+p{
+    margin: 10px;
+}
+button{
+   display:block;
+   position: relative;
+   margin:0 auto; 
+   background: linear-gradient(to top,#008d00 ,#00fd00);
+   color: white;
+   border:none;
+   height: 30px;
+   margin-top: 20px;
+
+}
+
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffbe;
+    top: 0;
+    left: 0;
+    visibility: hidden;;
+}
+.popup_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    
+}
+.popup_content{
+    background-color: #e1ff73;
+    max-width: 500px;
+    padding: 20px;
+}
+.popup_text>p{
+    margin: 0;
+}
+.popup_text>h1{
+    text-align: center;
+    margin-top: 0;
+}
