@@ -1,0 +1,41 @@
+body{
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+}
+bottom{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    background: linear-gradient(rgb(255,255,255), rgb(240,240,240));
+}
+bottom:hover{
+    box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(63, 169, 218, 0.986),
+   0 -1px 1px 1px  rgba(63, 169, 218, 0.986);
+}
+input{
+    margin: 5px;
+}
+.squares {
+    background: red;
+    position: fixed;
+    border: 2px solid black;
+    opacity: .9;
+}
+
+.triangles{
+    border-style: solid;
+    height: 0px;
+    width: 0px;
+    border-color: transparent;
+    position: fixed;
+    opacity: .9;
+}
+.circles{
+	background: purple; 
+    border-radius: 40px;
+    opacity: .9;
+    border: 2px solid black;
+    position: fixed;
+}
