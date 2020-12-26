@@ -1,0 +1,10 @@
+integer i, j, x, m, 12;
+in(i);
+in(j);
+integer size 3;
+r = mass [size];
+ 
+out(r);
+
+
+

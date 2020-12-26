@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+input{
+    border: 1px solid gray;
+    height: 30px;
+    padding: 0;
+    float: left; 
+
+}
+div>button{
+    border: 1px solid gray;
+    height: 32px;
+    width: 32px;
+    padding: 0;
+}
+button{
+    border: 1px solid gray;
+    background: linear-gradient(rgb(255,255,255), rgba(122, 104, 104, 0.226));
+}
+
+#save, #add{
+    left: 0;
+    height: 32px;
+    top: 64px;
+}

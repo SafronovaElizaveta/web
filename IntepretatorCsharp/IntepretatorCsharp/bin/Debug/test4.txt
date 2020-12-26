@@ -1,0 +1,6 @@
+integer x;
+x =  4 / 0; 
+out(x);
+
+
+
